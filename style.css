@@ -123,6 +123,10 @@
     color: #1a1b26;
 }
 
+#custom-text {
+    background-color: #24283b;
+    color: #c0caf5;
+
 #tray {
     background-color: #6B645A;
     padding: 0px 15px;
@@ -144,5 +148,11 @@ menuitem {
 }
 menuitem:hover {
     color: #1b1a1a;
-    background-color: #b8bb26;
+    background-color: #c0caf5;
+}
+
+/* Custom workspace button hover effect */
+#workspaces button:hover {
+    background-color: #7aa2f7; /* Replace with your desired hover background color */
+    color: #1a1b26;            /* Replace with your desired text/icon color */
 }

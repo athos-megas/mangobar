@@ -19,6 +19,7 @@
     "modules-right": [
         "hideclients",
         "tray",
+	"custom/text",
         "network",
 	"pulseaudio",
         // "keymode",
@@ -112,5 +113,10 @@
 	"on-click": "wlogout",
         //"on-click": "wlogout -C ~/.config/mango/wlogout/style.css -l ~/.config/mango/wlogout/layout -b 6 --protocol layer-shell",
         "on-click-right": "sleep 0.1s && swaync-client -t -sw"
+    },
+
+    "custom/text": {
+	"format": "ICXC NIKA 󰳵",
+	"on-click": "foot -e ~/Bible/cross.sh"
     }
 }
